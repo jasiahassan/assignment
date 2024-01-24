@@ -43,8 +43,6 @@ const createfileAsync = (req, res) => {
   });
 };
 
-const updatefiles = (req, res) => {};
-
 const deletefilessync = (req, res) => {
   try {
     fs.unlink("newdata.json");
@@ -79,10 +77,6 @@ const server = http.createServer((req, res) => {
   }
   if (method === "POST" && pathname === "/create-file-async") {
     createfileAsync(req, res);
-  }
-  if (method === "PATCH" && pathname === "/update-file/id") {
-    res.end("hi");
-    updatefiles(req, res);
   }
   if (method === "DELETE" && pathname === "/delete-file-sync") {
     deletefilessync(req, res);
