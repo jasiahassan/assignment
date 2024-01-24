@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "The forest Hiker",
+    "duration": 5,
+    "maxGroupSize": 25,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuQuantity": 37,
+    "price": 397
+  },
+  {
+    "id": 0,
+    "name": "The jaz Hiker",
+    "duration": 5,
+    "maxGroupSize": 25,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuQuantity": 37,
+    "price": 397
+  },
+  {
+    "id": 0,
+    "name": "The jaz Hiker",
+    "duration": 5,
+    "maxGroupSize": 25,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuQuantity": 37,
+    "price": 397
+  }
+]
